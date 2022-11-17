@@ -13,11 +13,43 @@ header{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -75px;
+    
 }
 
 /* This will apply any included styles to the body element */
 body{
-
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    
 }
 
 /* Create your own classes below! */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: darkred;
+
+}
+
+.active{
+    background-color: gray;
+}
