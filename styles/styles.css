@@ -20,7 +20,7 @@ header{
 body{
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    
+    background-color: #E0E2DB;
 }
 
 /* Create your own classes below! */
@@ -30,7 +30,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #131615;
 }
 
 li {
@@ -46,10 +46,57 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: darkred;
+    background-color: #8B2635;
 
 }
 
 .active{
     background-color: gray;
+}
+
+.ptext {
+   width: 400px;
+   border-radius: 25px;
+   border: 1px solid;
+   padding: 20px;
+
+}
+
+.p1 {
+    display: flex;
+    width: 400px;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 20px;
+    background-color: #d2d4c8;
+}
+
+.p2 {
+    display: flex;
+    width: 400px;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 20px;
+    background-color: #c7c9ba;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.flex-container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
 }
